@@ -1,0 +1,32 @@
+<students>
+  <student type="programmer">
+    <name>Bader</name>
+    <surname>Hammani</surname>
+    <email>Bader@gmail.com</email>
+    <dni>12345678L</dni>
+  </student>
+  <student type="programmer">
+    <name>Angelo</name>
+    <surname>Yachi</surname>
+    <email>Angelo@gmail.com</email>
+    <dni>15345678L</dni>
+  </student>
+  <student type="programmer">
+    <name>Ilich</name>
+    <surname>Tovar</surname>
+    <email>Ilich@gmail.com</email>
+    <dni>16345678L</dni>
+  </student>
+  <student type="programmer">
+    <name>Bilal</name>
+    <surname>Bilal</surname>
+    <email>Bilal@gmail.com</email>
+    <dni>17345678L</dni>
+  </student>
+  <student type="programmer">
+    <name>Arnau</name>
+    <surname>Rodri</surname>
+    <email>Arnau@gmail.com</email>
+    <dni>19345678L</dni>
+  </student>
+</students>
