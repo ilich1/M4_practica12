@@ -1,6 +1,6 @@
 import xml.etree.ElementTree as ET
-
-
+#IMPORTEM XML
+#CREEM UNA FUNCIÓ QUE CREA Y MOSTRA UN ARXIU XML
 def practica12A():
     p = ET.Element('students')
     c1 = ET.SubElement(p, 'student')
@@ -52,12 +52,14 @@ def practica12A():
     ET.indent(p)
     students = ET.ElementTree(p)
     root = students.getroot()
+    #BUCLE PER CREAR ELS ATRIBUTS
     for element in root:
         element.set('type', 'programmer')
 
     students.write('practica12A.xml')
 
     root = students.parse('practica12A.xml')
+    #MOSTREM L'ARXIU XML
     ET.dump(root)
 
 

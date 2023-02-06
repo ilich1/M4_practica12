@@ -1,3 +1,3 @@
 import Practica12_A as P12A
-
+#iMPORTEM Y EXECUTEM LA FUNCIO
 P12A.practica12A()
